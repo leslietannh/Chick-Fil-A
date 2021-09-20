@@ -28,8 +28,8 @@ public class Config {
     
     public static DesiredCapabilities getGalaxyS8PayloadAndroid9DesiredCapabilities() {
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("sessionName", "Chick-Fil-A Automation session-2");
-        capabilities.setCapability("sessionDescription", "Today is 09-17-2021");
+        capabilities.setCapability("sessionName", "Chick-Fil-A & Jenkins Automation");
+        capabilities.setCapability("sessionDescription", "Today is 09-20-2021");
         capabilities.setCapability("deviceOrientation", "portrait");
         capabilities.setCapability("noReset", false);
         capabilities.setCapability("fullReset", true);
