@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestApp"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="131.432">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testOnGalaxyS8PayloadAndroid9"
+                time="131.432"
+                classname="com.kobiton.scriptlessautomation.TestSuite">
+            </testcase>
+</testsuite>
