@@ -8,7 +8,7 @@ public class Config {
     enum DEVICE_SOURCE_ENUMS {KOBITON, SAUCE_LABS}
 
     public static final String KOBITON_USERNAME = "LeslieTanNH";
-    public static final String KOBITON_API_KEY = "89a36fa3-bbf5-42b7-92c5-a7d13efa7575";
+    public static final String KOBITON_API_KEY = "1e2f89f9-dbfb-4c49-b431-6d6d8b46a111";
     public static final String APPIUM_SERVER_URL = "https://" + KOBITON_USERNAME + ":" + KOBITON_API_KEY + "@api.kobiton.com/wd/hub";
     public static final DEVICE_SOURCE_ENUMS DEVICE_SOURCE = DEVICE_SOURCE_ENUMS.KOBITON;
     public static final int IMPLICIT_WAIT_IN_SECOND = 30;
