@@ -29,7 +29,7 @@ public class Config {
     public static DesiredCapabilities getGalaxyS8PayloadAndroid9DesiredCapabilities() {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("sessionName", "Chick-Fil-A & Jenkins Automation");
-        capabilities.setCapability("sessionDescription", "Today is 10-21-2021");
+        capabilities.setCapability("sessionDescription", "Today is 12-1-2021");
         capabilities.setCapability("deviceOrientation", "portrait");
         capabilities.setCapability("noReset", false);
         capabilities.setCapability("fullReset", true);
@@ -42,7 +42,7 @@ public class Config {
         capabilities.setCapability(MobileCapabilityType.APP, "kobiton-store:v280557");
         capabilities.setCapability("deviceGroup", "ORGANIZATION");
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "*");
-        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
+        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         return capabilities;
     }
