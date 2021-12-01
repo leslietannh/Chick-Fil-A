@@ -42,7 +42,7 @@ public class Config {
         capabilities.setCapability(MobileCapabilityType.APP, "kobiton-store:v280557");
         capabilities.setCapability("deviceGroup", "ORGANIZATION");
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "*");
-        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
+        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         return capabilities;
     }
